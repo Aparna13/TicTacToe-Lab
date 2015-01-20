@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-family: marker felt;
+}
+
+body {
+    background-image: url(http://georgesrestaurant.com/wp-content/uploads/2010/07/Chalkboard.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    width: 330px;
+    margin:0 auto;
+}
+
+.gamebox {
+    width: 312px;
+    height:312px;
+    z-index: 1;
+    margin-top: 55px;
+    /*background-color: grey;*/
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    font-family: marker felt;
+    /*background-color: red;*/
+}
+
+.selected_x {
+    background: #009933;
+    
+}
+
+.selected_o {
+    background: #0099ff;
+}
+    
+
+#cell1,#cell2,#cell4 ,#cell5{
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+#cell6,#cell3{
+
+    border-bottom: 4px solid white;
+}
+
+#cell7,#cell8{
+
+    border-right: 4px solid white;
+}
+
+#press {
+
+     background-color:white;
+     color: white;
+     width: 90px;
+     height: 90px;
+     margin:0 110px;
+     border-radius: 50%; 
+     background: orange;
+     font-family: marker felt;
+     font-size: 20px;
+     
+
+
+}
