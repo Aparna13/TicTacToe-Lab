@@ -32,6 +32,7 @@ body {
     line-height: 90px;
     font-size: 40px;
     font-family: marker felt;
+    color: white;
     /*background-color: red;*/
 }
 
@@ -60,7 +61,7 @@ body {
     border-right: 4px solid white;
 }
 
-#press {
+#reset {
 
      background-color:white;
      color: white;

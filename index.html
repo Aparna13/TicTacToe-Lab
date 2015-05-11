@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>apu Tic Tac Toe</title>
+        <title>Tic Tac Toe</title>
         <link rel="stylesheet" type="text/css" href="./style.css">
         <script src="app.js"></script>
     </head>
@@ -9,25 +9,26 @@
 
         <div class="wrapper">
 
-			<div class="gamebox">
-			
-				<div class="box" id="cell1"></div>
-				<div class="box" id="cell2"></div>
-				<div class="box" id="cell3"></div>
-				<div class="box" id="cell4"></div>
-				<div class="box" id="cell5"></div>
-				<div class="box" id="cell6"></div>
-				<div class="box" id="cell7"></div>
-				<div class="box" id="cell8"></div>
-				<div class="box" id="cell9"></div>
+      <div class="gamebox">
+      
+        <div class="box" id="cell1" data-num="0"></div>
+        <div class="box" id="cell2" data-num="1"></div>
+        <div class="box" id="cell3" data-num="2"></div>
+        <div class="box" id="cell4" data-num="3"></div>
+        <div class="box" id="cell5" data-num="4"></div>
+        <div class="box" id="cell6" data-num="5"></div>
+        <div class="box" id="cell7" data-num="6"></div>
+        <div class="box" id="cell8" data-num="7"></div>
+        <div class="box" id="cell9" data-num="8"></div>
 
-	
-			</div>
-			<p></p>
-			<button type="button" id = "press">Start Over!</button>
-			
-		</div>
+  
+      </div>
+      <p></p>
+      <h2 class = "playerTurn"></h2>
+      <button type="button" id = "reset">Start Over!</button>
+      
+    </div>
 
 
-	</body>
+  </body>
 </html>
