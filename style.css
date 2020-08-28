@@ -8,6 +8,7 @@ h1 {
 body {
     background-image: url(https://live.staticflickr.com/2604/4030150829_b59e42e13c_b.jpg);
     background-size: cover;
+    background-color: #36454f;
 }
 
 .wrapper {
